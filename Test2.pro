@@ -15,12 +15,12 @@ CONFIG  -= qt
 
 TEMPLATE = app
 
-INCLUDEPATH += D://_TEODORA//_Lib//opencv//release//install//include
-LIBS += "D:\_TEODORA\_Lib\opencv\release\lib\libopencv_core249.dll.a"
-LIBS += "D:\_TEODORA\_Lib\opencv\release\lib\libopencv_highgui249.dll.a"
-LIBS += "D:\_TEODORA\_Lib\opencv\release\lib\libopencv_imgproc249.dll.a"
-LIBS += "D:\_TEODORA\_Lib\opencv\release\lib\libopencv_features2d249.dll.a"
-LIBS += "D:\_TEODORA\_Lib\opencv\release\lib\libopencv_calib3d249.dll.a"
+INCLUDEPATH += C://opencv//release//install//include
+LIBS += "C:\opencv\release\lib\libopencv_core249.dll.a"
+LIBS += "C:\opencv\release\lib\libopencv_highgui249.dll.a"
+LIBS += "C:\opencv\release\lib\libopencv_imgproc249.dll.a"
+LIBS += "C:\opencv\release\lib\libopencv_features2d249.dll.a"
+LIBS += "C:\opencv\release\lib\libopencv_calib3d249.dll.a"
 
 
 SOURCES += main.cpp
